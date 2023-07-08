@@ -1,0 +1,33 @@
+:root {
+    --col1: #4f4f2b;
+    --col2: #f6d6a3;
+    --col3: #cb7b84;
+    --col4: #a3152d;
+    --col5: #67161d;
+}
+#body {
+    background-color: var(--col2);
+}
+/* header css */
+#header {
+    padding: 25px;
+    background-color: var(--col1);
+    color: var(--col3);
+}
+
+/* nav button css */
+#nav {
+bottom: 0px;
+    text-align: right;
+
+}
+
+#nav li {
+    display: inline-block;
+    margin-right: 0px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
